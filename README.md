@@ -16,8 +16,6 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -30,7 +28,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -46,14 +43,52 @@
 > I use node for the main construction of the RestApi and typescript for the main lenguage.
 > Jest is used for the unit test suit.
 
+## All dependencies installed:
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://nodejs.org/">Node.js</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
+- Express: It's a layer built on the top of the Node.js that helps manage servers and routes.
+- Dotenv: Is a zero-dependency module that loads environment variables from a .env file into 'process.env'.
+- Jest: Unit test suit for javascript.
+- Nodemon: Is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+- Typescript: TypeScript compiles to readable, standards-based JavaScript.
+- Serve: serve helps you serve a static site, single page application or just a static file (no matter if on your device or on the local network). It also provides a neat interface for listing the directory's contents.
+- Webpack: Its main purpose is to bulndle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
+- SuperTest: this dependency helps to provide a high-level abstraction for testing HTTP, while still allowing you to drop down to the lower-level API provided by superagent.
+- Eslint: ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+
+## Scripts:
+
+>tsconfig.json file is created.
+```sh
+  npm run build
+```
+
+>dist folder with it's production index.js file are created.
+```sh
+  npm run start
+```
+
+>We enter in developer mode where we can see all our changes made when refreshing the browser with no need of restart the server.
+```sh
+  npm run dev
+```
+
+>We run our tests.
+```sh
+  npm run test
+```
+
+>We run our tests and also run our coverage HTML file.
+```sh
+  npm run serve:coverage
+```
+
+## Environment variable:
+>Inside your .env file you should create:
+```sh
+  PORT=8000
+```
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
