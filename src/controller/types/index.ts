@@ -13,3 +13,11 @@ export type ErrorResponse = {
   error: string,
   message: string,
 };
+
+/**
+ * goodbye response
+ */
+export type GoodbyeResponse = {
+  message : string,
+  date : Date
+}
