@@ -1,5 +1,5 @@
 import { userEntity } from "../entities/User.entity";
-import { LogError, LogSuccess  } from "@/utils/logger";
+import { LogError, LogSuccess  } from "../../utils/logger";
 
 //CRUD 
 
